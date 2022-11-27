@@ -1,0 +1,65 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    /* background-color: #111; */
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    align-items: center;
+    background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3), 50%);
+
+}
+
+.blackNavBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    align-items: center;
+    background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3), 50%);
+    background-color: #111;
+}
+
+.logo {
+    position: fixed;
+    left: 40px;
+    width: 80px;
+}
+
+
+.rightElements {
+    margin-right: 20px;
+}
+
+.leftNav {
+    color: white;
+    position: fixed;
+    left: 180px;
+
+}
+
+.leftElements {
+    margin-right: 20px;
+    font-weight: 600;
+
+}
+
+.rightNav {
+    color: white;
+    position: fixed;
+    right: 70px;
+}
+
+.leftElements:hover {
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.rightElements:hover {
+    cursor: pointer;
+}
